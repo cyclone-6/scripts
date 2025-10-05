@@ -1,9 +1,11 @@
 #!/bin/bash
 # Usage: javaarray.sh $1
+# Licensed under GPL 3.0
 # Purpose Load a Jar file with a specific installed java version
 #   using array generated list
-# Last Modified 20 Sep 2025
 # latrunculus.occulte@hush.ai
+# Last Modified 20 Sep 2025
+# jvmpath is location where java virtual machines are installed
 jvmpath="/home/cyclone6/jvm"
 show_java(){
 echo "Default Java Version is:"
@@ -27,7 +29,6 @@ for list in "${ARRAY[@]}"
     done
 cd - > /dev/null
 }
-
 show_choice(){
 echo "Choose Java Version to Run with Jar File $1"
 declare -i getChoice

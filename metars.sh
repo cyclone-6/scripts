@@ -1,16 +1,16 @@
 #!/bin/bash
 # Usage: metars.sh $1
+# Licensed under GPL 3.0
 # Purpose: Fetch METARS info from given ICAO
 # Examples:metars.sh KBHB
-# Last Modified:25 Sep 25
 # latrunculus.occulte@hush.ai
+# Last Modified:25 Sep 25
 Version="0.9.0"
 Help(){
    echo -e "Syntax: metars.sh $1 -[h|v] \$1"
    echo -e "Options:"
    echo -e "-h   Display Help"
    echo -e "-v   Display Version"
-
 }
 Version(){
    echo "Version: $Version"

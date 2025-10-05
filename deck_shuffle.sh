@@ -1,7 +1,7 @@
 #!/bin/bash
 # Usage: deck_shuffle.sh
+# Licensed under GPL 3.0
 # Purpose: Shuffles a deck (jokers optional) and deals a requested number of 5 card hands
-# Examples:
 # Last Modified:3 Oct 25
 # latrunculus.occulte@hush.ai
 set -euo pipefail
