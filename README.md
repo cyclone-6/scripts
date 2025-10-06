@@ -16,6 +16,10 @@ metars.sh:
 
 Bash script that given a particular ICAO location code, retrieves latest raw METARS data.
 
+rmhist.sh
+
+Bash script that simultaneously removes searched lines from .history, .bash_history, .zsh_history and .sh_history.
+
 wizzodice.sh:
 
 Bash script that rolls a number of polyhedral dice and displays the rolls, the sum of each roll by die type and the sum of all the die type. Die rolls allow for modifiers (ie 4d6+2), developed to help in TTRPG and strategic wargames.
