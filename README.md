@@ -4,6 +4,10 @@ deck_shuffle.sh:
 
 Bash script that shuffles a deck of cards (with, or without, jokers), deals out a given number of 5 card hands and displays them with Unicode characters representing the four card suits.
 
+imgresizer.sh
+
+Bash script that resizes jpg or png images to given dimensions in a specified directory. Requires ImageMagick.
+
 inst_discord.sh:
 
 Bash script to make it easier to install the constant updates (almost) every time one launches Discord on Linux. Requires that the download location variable be set and then searches for the latest .deb file version and installs it.
