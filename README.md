@@ -4,6 +4,10 @@
 
 Bash script that shuffles a deck of cards (with, or without, jokers), deals out a given number of 5 card hands and displays them with Unicode characters representing the four card suits.
 
+## getlyrics.sh
+
+Bash script that retrieves song lyrics from internet to the terminal. Requires curl.
+
 ## imgresizer.sh
 
 Bash script that resizes jpg or png images to given dimensions in a specified directory. Requires ImageMagick.
