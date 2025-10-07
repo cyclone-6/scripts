@@ -30,7 +30,7 @@ Bash script that rolls a number of polyhedral dice and displays the rolls, the s
 
 ## Backup Scripts for DAR
 
-###dar-full-filesystem.sh, dar-fdiff-filesystem.sh and dar-inc-filesystem.sh
+### dar-full-filesystem.sh, dar-fdiff-filesystem.sh and dar-inc-filesystem.sh
 
 Three bash scripts used to automate DAR for backups. Designed to have the initial backup run manually with incremental backups to be run as cron jobs or services under systemctl. The initial backup is created with dar-full-filesystem.sh and creates a backup broken into 650mb chunks. After running the intitial full backup, run the differential backup with dar-fdiff-filesystem.sh to create a reference for future incremental backups. This will put a timestamp on the end of the name of the backup with the current date. Because of this you either have to wait a day to run your first scheduled backup or you can run your first incremental backup immediately by changing the date in the name of the differential backup to the day prior (the differential backup should be small if done immediately after the full backup). You can create multiple backup jobs by renaming a set of scripts for each backup (for example dar-inc-opt.sh, dar-inc-boot.sh, dar-full-srv.sh).
 
