@@ -1,5 +1,9 @@
 # Cyclone-6's Misc (And Probably Mostly Useless) Scripts For Linux Systems
 
+## cputhrottle.sh
+
+Bash script to set, or display, CPU governor throttling.
+
 ## deck_shuffle.sh:
 
 Bash script that shuffles a deck of cards (with, or without, jokers), deals out a given number of 5 card hands and displays them with Unicode characters representing the four card suits.
