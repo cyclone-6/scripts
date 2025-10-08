@@ -24,9 +24,17 @@ Bash script to make it easier to install the constant updates (almost) every tim
 
 Bash script that searches a directory containing multiple directories each with a separate version of Java and allows a selection of available versions to launch a specific .jar file. Developed to make it easier to launch certain game servers and IDEs that are version picky.
 
+## lg_eng_words.text
+
+A sample dictionary file.
+
 ## metars.sh:
 
 Bash script that given a particular ICAO location code, retrieves latest raw METARS data.
+
+## mkwordlists.sh
+
+Bash script that generates word length specific word lists from a dictionary file. The minimum length and maxmimum length of the words used can be changed with the _min_ and _max_ variables. A sample word list, lg_eng_words.text is available to download.
 
 ## rmhist.sh
 
