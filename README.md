@@ -40,6 +40,10 @@ Bash script that generates word length specific word lists from a dictionary fil
 
 Bash script that simultaneously removes searched lines from .history, .bash_history, .zsh_history and .sh_history.
 
+## SOI_wordgenlist.sh
+
+Bash script that Generates a list of words from a dictionary word list that does not have more than one instance of any given letter in a word. Most useful when used against a dictionary list of 10 letter words (which can be generated with _mkwordlists.sh_) to generate a list for a paper Signal Operating Instruction (SOI) authentication set.
+
 ## wizzodice.sh:
 
 Bash script that rolls a number of polyhedral dice and displays the rolls, the sum of each roll by die type and the sum of all the die type. Die rolls allow for modifiers (ie 4d6+2), developed to help in TTRPG and strategic wargames.
