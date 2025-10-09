@@ -6,7 +6,11 @@ Bash script to set, or display, CPU governor throttling.
 
 ## deck_shuffle.sh:
 
-Bash script that shuffles a deck of cards (with, or without, jokers), deals out a given number of 5 card hands and displays them with Unicode characters representing the four card suits.
+Bash script that shuffles a deck of cards (with, or without, jokers), deals out a given number of 5 card hands and displays them with Unicode characters representing the four card suits. (_see screenshot_)
+
+## genSOI.sh
+
+Bash script that generates a paper Signal Operating Instruction (SOI) authentication key set for a given year from a dictionary file. Dictionary file can be a full size dictionary file or any file that contains at least 366 10 letter words. If a year is not given it defaults to the current year. (_see screenshot_)
 
 ## getlyrics.sh
 
@@ -22,7 +26,7 @@ Bash script to make it easier to install the constant updates (almost) every tim
 
 ## javaarray.sh:
 
-Bash script that searches a directory containing multiple directories each with a separate version of Java and allows a selection of available versions to launch a specific .jar file. Developed to make it easier to launch certain game servers and IDEs that are version picky.
+Bash script that searches a directory containing multiple directories each with a separate version of Java and allows a selection of available versions to launch a specific .jar file. Developed to make it easier to launch certain game servers and IDEs that are version picky. (_see screenshot_)
 
 ## lg_eng_words.text
 
@@ -30,7 +34,7 @@ A sample dictionary file.
 
 ## metars.sh:
 
-Bash script that given a particular ICAO location code, retrieves latest raw METARS data.
+Bash script that given a particular ICAO location code, retrieves latest raw METARS data. (_see screenshot_)
 
 ## mkwordlists.sh
 
@@ -46,7 +50,7 @@ Bash script that Generates a list of words from a dictionary word list that does
 
 ## wizzodice.sh:
 
-Bash script that rolls a number of polyhedral dice and displays the rolls, the sum of each roll by die type and the sum of all the die type. Die rolls allow for modifiers (ie 4d6+2), developed to help in TTRPG and strategic wargames.
+Bash script that rolls a number of polyhedral dice and displays the rolls, the sum of each roll by die type and the sum of all the die type. Die rolls allow for modifiers (ie 4d6+2), developed to help in TTRPG and strategic wargames. (_see screenshot_)
 
 ## Backup Scripts for DAR
 
