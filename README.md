@@ -40,6 +40,10 @@ Bash script that given a particular ICAO location code, retrieves latest raw MET
 
 Bash script that generates word length specific word lists from a dictionary file. The minimum length and maxmimum length of the words used can be changed with the _min_ and _max_ variables. A sample word list, lg_eng_words.text is available to download.
 
+## nero2iso.sh
+
+Bash script that converts Nero .nrg file to .iso file.
+
 ## rmhist.sh
 
 Bash script that simultaneously removes searched lines from .history, .bash_history, .zsh_history and .sh_history.
